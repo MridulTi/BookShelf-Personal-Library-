@@ -27,10 +27,10 @@ function BookShelf() {
     <div className=''>
       <div className=''>
         <h1 className='p-4 pt-0 text-gray-1 font-bold tracking-wider'>MY BOOKSHELF.</h1>
-        <div className='grid grid-cols-4 gap-6 place-items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4  gap-6 place-items-center'>
         {books.length > 0 ? (
         books.map((d, index) => (
-          <Card variant='' className="w-72 aspect-square grid place-items-center">
+          <Card variant='' className="w-full md:w-64 lg:w-72 aspect-square grid place-items-center">
                 <CardBody>
                   <Typography variant="h6" color="blue-gray" className="mb-2">
                     {d.title}

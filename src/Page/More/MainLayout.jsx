@@ -14,8 +14,10 @@ function MainLayout() {
   }, [data]);
 
   
+
+  
   return (
-    <div className='bg-gray-4'>
+    <div className='bg-gray-4 w-full'>
         <div className='fixed flex flex-cols gap-12 place-items-center top-0 w-screen z-10 px-24 py-2 bg-gray-5'>
         <Link to="/"><h1 className='font-bold tracking-widest text-base-tertiary w-fit'>BOOKSHELF</h1></Link>
           <Input variant="outlined" label="Browse Books" placeholder="Browse Books" 
